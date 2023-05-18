@@ -3,9 +3,9 @@ import "./App.css";
 import React, { Component } from "react";
 import NavBar from "./components/NavBar";
 import News from "./components/News";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 export default class App extends Component {
- pageSize = 9;
+  pageSize = 9;
   render() {
     return (
       <div>
